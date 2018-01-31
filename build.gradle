@@ -1,0 +1,30 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+
+
+        // LIBs antes usadas para fazer testes de GPS
+        //compile group: 'com.google.api-client', name: 'google-api-client', version: '1.15.0-rc'
+        //compile group: 'com.google.api.client', name: 'google-api-client-googleapis', version: '1.4.1-beta'
+        //compile group: 'com.google.android', name: 'google-play-services', version: 'r22'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

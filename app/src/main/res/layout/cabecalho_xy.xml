@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="#F3F6F9">
+
+    <HorizontalScrollView
+        android:id="@+id/cabecalho_xy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fadingEdge="horizontal|vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ebebe0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/col_ut"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:padding="5dp"
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="UT"/>
+
+            <TextView
+                android:id="@+id/col_faixa"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="FAIXA"/>
+
+            <TextView
+                android:id="@+id/col_numero"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="NR ÁRVORE"/>
+
+            <TextView
+                android:id="@+id/col_especie"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="ESPÉCIE"/>
+
+            <TextView
+                android:id="@+id/col_cap"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="CAP"/>
+
+            <TextView
+                android:id="@+id/col_altura"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="ALTURA"/>
+
+            <TextView
+                android:id="@+id/col_qf"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="QF"/>
+
+            <TextView
+                android:id="@+id/col_observacao"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="OBSERVAÇÃO"/>
+
+            <TextView
+                android:id="@+id/col_coordx"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="40dp"
+                android:padding="5dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="COORD X"/>
+
+            <TextView
+                android:id="@+id/col_orientx"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="OR. X"/>
+
+            <TextView
+                android:id="@+id/col_coordy"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:text="COORD Y"/>
+
+            <TextView
+                android:id="@+id/col_pessoa1"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="40dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="MEDIDOR"/>
+
+            <TextView
+                android:id="@+id/col_pessoa2"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="BOTÂNICO"/>
+
+            <TextView
+                android:id="@+id/col_pessoa3"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="PLAQUETEIRO"/>
+
+            <TextView
+                android:id="@+id/col_pessoa4"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="ANOTADOR X"/>
+
+            <TextView
+                android:id="@+id/col_pessoa5"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="ANOTADOR Y"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

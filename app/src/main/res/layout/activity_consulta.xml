@@ -1,0 +1,265 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="coletor.sismanejo.com.br.coletor.activities.ConsultaActivity"
+    android:id="@+id/consulta_gps">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"></LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:fadingEdge="horizontal|vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ebebe0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/col_ut"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="20dp"
+                android:padding="5dp"
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="UT"/>
+
+            <TextView
+                android:id="@+id/col_faixa"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="FAIXA"/>
+
+            <TextView
+                android:id="@+id/col_numero"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="NR ÁRVORE"/>
+
+            <TextView
+                android:id="@+id/col_especie"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="ESPÉCIE"/>
+
+            <TextView
+                android:id="@+id/col_cap"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="CAP"/>
+
+            <TextView
+                android:id="@+id/col_altura"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="ALTURA"/>
+
+            <TextView
+                android:id="@+id/col_qf"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="QF"/>
+
+            <TextView
+                android:id="@+id/col_observacao"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:gravity="center_horizontal"
+                android:text="OBSERVAÇÃO"/>
+
+            <TextView
+                android:id="@+id/col_coordx"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="40dp"
+                android:padding="5dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="COORD X"/>
+
+            <TextView
+                android:id="@+id/col_orientx"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="OR. X"/>
+
+            <TextView
+                android:id="@+id/col_coordy"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:text="COORD Y"/>
+
+            <TextView
+                android:id="@+id/col_ponto_gps"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:text="PONTO GPS"/>
+
+            <TextView
+                android:id="@+id/col_pessoa1"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="40dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="ANOTADOR"/>
+
+            <TextView
+                android:id="@+id/col_pessoa2"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="BOTÂNICO"/>
+
+            <TextView
+                android:id="@+id/col_pessoa3"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="PLAQUETEIRO"/>
+
+            <TextView
+                android:id="@+id/col_pessoa4"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="ANOTADOR X"/>
+
+            <TextView
+                android:id="@+id/col_pessoa5"
+                android:layout_marginTop="1dp"
+                android:padding="5dp"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="ANOTADOR Y"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:fadingEdge="horizontal|vertical">
+        <ListView
+            android:id="@+id/lista_arvores"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="0.55"
+            android:scrollbars="horizontal" />
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="retorna ao menu principal"
+            android:id="@+id/voltar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:background="@layout/template_botao_padrao"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="exportar (.csv)"
+            android:id="@+id/exportar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:background="@layout/template_botao_padrao"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="salvar no sismanejo"
+            android:id="@+id/salvar_sismanejo"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:background="@layout/template_botao_padrao"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="ecluir todas"
+            android:id="@+id/excluir"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:background="@layout/template_botao_padrao"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coleta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="coletor.sismanejo.com.br.coletor.activities.ColetaActivity"
+    android:weightSum="1">
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:padding="5dp"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="UT"/>
+
+            <EditText
+                android:id="@+id/campoUt"
+                android:layout_marginLeft="40dp"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:enabled="false"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="FAIXA"/>
+
+            <EditText
+                android:id="@+id/campoFaixa"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="NR ÁRV."/>
+
+            <EditText
+                android:id="@+id/campoNumeroArv"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="number"
+                android:maxLength="6"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="ESP."/>
+
+            <EditText
+                android:id="@+id/campoCodigoEspecie"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="number"
+                android:maxLength="5"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="NOME POPULAR"/>
+
+            <TextView
+                android:id="@+id/lbNomePopular"
+                android:layout_marginTop="5dp"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text=""/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+
+                android:padding="5dp"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="CAP"/>
+
+            <EditText
+                android:id="@+id/campoCap"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+
+                android:padding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="ALTURA"/>
+
+            <EditText
+                android:id="@+id/campoAltura"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="numberDecimal"
+                android:maxLength="6"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+
+                android:padding="5dp"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:text="QF"/>
+
+            <EditText
+                android:id="@+id/campoQf"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="number"
+                android:maxLength="1"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:text="FISIOLOGIA"/>
+
+            <Spinner
+                android:id="@+id/comboFisiologia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/fisiologia" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lb_coordx"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:padding="5dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="X"/>
+
+            <EditText
+                android:id="@+id/campoX"
+                android:layout_marginLeft="40dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:maxLength="2"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lb_orientx"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="DIR"/>
+
+            <Switch
+                android:id="@+id/comboOrientacaoX"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:checked="true"
+                android:textOn="DIR"
+                android:textOff="ESQ"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lb_coordy"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Y"/>
+
+            <EditText
+                android:id="@+id/campoY"
+
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:maxLength="4"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lb_ponto_gps"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="GPS"/>
+
+            <EditText
+                android:id="@+id/campoGPS"
+
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:maxLength="4"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="cipó"/>
+
+            <EditText
+                android:id="@+id/campoCipo"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:maxLength="120"
+                android:text=""/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center_horizontal"
+                android:text="observaçao"/>
+
+            <EditText
+                android:id="@+id/campoObservacao"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:textSize="18dp"
+                android:inputType="text"
+                android:maxLength="120"
+                android:text=""/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="720dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@layout/template_botao_padrao"
+            android:text="Cancelar"/>
+
+        <Button
+            android:id="@+id/btnAtualizar"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@layout/template_botao_padrao"
+            android:text="Atualizar"/>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_marginTop="50dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@layout/template_botao_padrao"
+            android:text="Salvar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="5dp"
+        >
+
+    </LinearLayout>
+
+
+
+    <HorizontalScrollView
+        android:id="@+id/registros"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:fadingEdge="horizontal|vertical">
+    <ListView
+        android:id="@+id/lista_arvores"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.55" />
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@layout/template_botao_padrao"
+            android:text="Voltar"/>
+
+
+        <Button
+            android:id="@+id/btnExportar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="800dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@layout/template_botao_padrao"
+            android:text="Exportar .csv"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

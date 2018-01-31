@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="coletor.sismanejo.com.br.coletor.activities.InicialActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/inicial"
+    android:background="@drawable/background_sismanejo">
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/imgArvores"
+        android:layout_gravity="left"
+        android:background="@drawable/logo_sismanejo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="170dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/coletor_inventario"
+            android:layout_width="390dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="Coletor de dados do inventário"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@layout/template_botao_transparente"
+
+            android:textSize="28dp" />
+
+        <Button
+            android:id="@+id/certificador_baldeio"
+            android:layout_width="390dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="90dp"
+            android:text="Certificador / Checklist de baldeio"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@layout/template_botao_transparente"
+            android:textSize="28dp" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

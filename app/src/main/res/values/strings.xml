@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Coletor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_coleta">ColetaActivity</string>
+    <string name="title_activity_consulta">Consulta</string>
+    <string name="InicialActivity">InicialActivity</string>
+    <string-array name="array_ori_x">
+        <item>DIR</item>
+        <item>ESQ</item>
+    </string-array>
+
+    <string-array name="fisiologia">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>

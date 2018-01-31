@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="#F3F6F9">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icone_arvore"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/ut"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:layout_width="18sp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/faixa"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/numero"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/especie"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="nome da especie"/>
+
+        <TextView
+            android:id="@+id/cap"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="1.0"/>
+
+        <TextView
+            android:id="@+id/altura"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="1.0"/>
+
+        <TextView
+            android:id="@+id/fuste"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/observacao"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="nome da observacao"/>
+
+        <TextView
+            android:id="@+id/coordx"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="COORD X"/>
+
+        <TextView
+            android:id="@+id/orix"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="OR. X"/>
+
+        <TextView
+            android:id="@+id/coordy"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="COORD Y"/>
+
+        <TextView
+            android:id="@+id/pessoa1"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="40dp"
+            android:padding="5dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="anotador"/>
+
+        <TextView
+            android:id="@+id/pessoa2"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="botânico"/>
+
+        <TextView
+            android:id="@+id/pessoa3"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="plaqueteiro"/>
+
+        <TextView
+            android:id="@+id/pessoa4"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="anotador x"/>
+
+        <TextView
+            android:id="@+id/pessoa5"
+            android:layout_marginTop="1dp"
+            android:padding="5dp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:text="anotador y"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorButtonNormal">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray">
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
