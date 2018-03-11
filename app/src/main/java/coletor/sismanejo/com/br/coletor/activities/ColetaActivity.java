@@ -50,6 +50,8 @@ public class ColetaActivity extends AppCompatActivity implements LocationListene
 
     private float x1, x2, y1;
 
+    // TESTE ALTERAÇÂO 11/03/2018
+
     private HorizontalScrollView registros;
     private ListView listaArvores;
     private CriaBanco criaBanco;
